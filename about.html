@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png">
+        <title> JP | About | </title>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css2?family=Armata&family=Reenie+Beanie&family=Syncopate&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+    <body class='bg-dark text-light'>
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark container-fluid text-light p-1">
+            <a class="navbar-brand text-light" href="index.html">
+                <button class="btn btn-outline-light mx-4" type="button" onclick="document.location='index.html'"> <i class="bi bi-house"></i> </button>
+            </a>
+            <button class="navbar-toggler text-light" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <i class="navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-options">
+                <ul class="navbar-nav ms-auto">
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='projects.html'"> <i class="bi bi-code-slash"></i> </button>
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='vlog.html'"> <i class="bi bi-camera"></i> </button>
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='contact.html'"> <i class="bi bi-envelope"></i> </button>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Header-->
+        <div class="col-md-11 mt-3 bg-dark d-flex justify-content-center">
+            <h1 class="display-3 clean-font text-uppercase text-maroon">
+                <i class="bi bi-person"></i> About
+                <hr>
+            </h1>
+        </div> 
+
+        <!--Grid Content Begins-->
+        <!--Row 1-->
+        <div class="container-fluid row h-75 bg-darkgray">
+
+            <!--Column 1-->
+            <div class=" col-md-2 mt-5 bg-dark h-75 pt-4 text-center clean-font text-uppercase ">
+                <h5 class="text-maroon clean-font fw-bolder"> Hi! </h5>
+                <small>
+                    I'm John Popich, a student at the University of New Orleans. Aspiring to become a full-stack developer.
+                </small>
+                <hr class=text-maroon>
+                <h5 class="text-maroon clean-font fw-bolder"> Interest: </h5>
+                <small>
+                    <ul class="text-left">
+                        <li> Full-Stack Development </li>
+                        <li> Cyber Security </li>
+                        <li> Artificial Intelligence </li>
+                        <li> Gaming </li>
+                    </ul>
+                </small>
+                    
+                <hr class=text-maroon>
+            </div>
+            <!--Column 1 END-->
+
+            <!--Column 2-->
+            <div class=" col-md-8 mt-5 bg-darkgray h-75 justify-content-center">
+                <div class="bg-dark p-2 text-center">
+                    <h3 class="clean-font text-maroon text-uppercase fw-bolder">Skills</h3>
+                    
+                    <hr class="text-maroon">
+
+                    <div class="bg-dark h-75 m-1 mt-5 p-4 d-flex row row-cols-4">
+                        <img class="pictures" src="assets/java.png">
+                        <img class="pictures" src="assets/javascript.png">
+                        <img class="pictures" src="assets/html.png">
+                        <img class="pictures" src="assets/css.png">
+                        <img class="pictures" src="assets/mongodb.png">
+                        <img class="pictures" src="assets/react.png">
+                        <img class="pictures" src="assets/node.webp">
+                        <img class="pictures" src="assets/socketio.png">
+                    </div>
+                </div>
+            </div>
+            <!--Column 2 END-->
+
+            <!--Column 3-->
+            <div class="text-center col-md-2 mt-5 h-75 bg-dark p-3">
+                <img type="button" onclick="document.location='index.html'" class='rounded w-100 bg-maroon' src="assets/me2.jpg">
+
+                <div class="d-flex justify-content-center gap-4 m-4">
+                    <a href='https://www.linkedin.com/in/john-popich-16b5b0232/' class='text-maroon'> <i class="bi bi-linkedin"></i> </a>
+                    <a href='https://github.com/jpopich' class='text-maroon'> <i class="bi bi-github"></i> </a>
+                    <a href='https://www.twitch.tv/bigpopich' class='text-maroon'> <i class="bi bi-twitch"></i> </a>
+                </div>
+                <hr class="text-maroon">
+                <h5 class="text-maroon clean-font text-uppercase fw-bolder">Education:</h5> 
+                <div class="clean-font text-uppercase d-flex justify-content-center gap-4 m-2">
+                    <small>
+                        Computer Science, B.S. University of New Orleans
+                    </small>
+                </div>
+                <hr class="text-maroon">
+            </div> 
+            <!--Column 3 END-->
+        </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+
+<!--wrap column 2 and 3 in a container and make that container row 1 of colum 2-->

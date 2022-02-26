@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png">
+        <title> JP | Contact </title>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css2?family=Armata&family=Reenie+Beanie&family=Syncopate&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+
+    <body class="bg-dark">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark container-fluid text-light p-1">
+            <a class="navbar-brand text-light" href="index.html">
+                <button class="btn btn-outline-light mx-4" type="button" onclick="document.location='index.html'"> <i class="bi bi-house"></i> </button>
+            </a>
+            <button class="navbar-toggler text-light" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <i class="navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-options">
+                <ul class="navbar-nav ms-auto">
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='about.html'"> <i class="bi bi-person"></i> </button>
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='projects.html'"> <i class="bi bi-code-slash"></i> </button>
+                    <button class="btn btn-outline-light mx-1" type="button" onclick="document.location='vlog.html'"> <i class="bi bi-camera"></i> </button>
+                </ul>
+            </div>
+        </nav>
+
+
+
+            <!--Contact Form-->
+            <div class="container-fluid row position-relative">
+
+
+                <!--Column 1-->
+                <div class="text-center col-md-1 mt-3">
+                    <img type="button" onclick="document.location='index.html'" class='img-thumbnail w-100' src="assets/jplogo.png">
+                    <div class="d-flex justify-content-center gap-4 m-4">
+                        <a href='https://www.linkedin.com/in/john-popich-16b5b0232/' class='text-maroon'> <i class="bi bi-linkedin"></i> </a>
+                        <a href='https://github.com/jpopich' class='text-maroon'> <i class="bi bi-github"></i> </a>
+                        <a href='https://www.twitch.tv/bigpopich' class='text-maroon'> <i class="bi bi-twitch"></i> </a>
+                    </div>
+                    <hr class="text-maroon">
+                </div>
+
+
+
+                <!--Column 2-->
+                <div class="col-md-11 w-75 mt-3 bg-dark">
+                    <div class="text-maroon text-uppercase d-flex text-center justify-content-center m-3">
+                        <h1 class="display-3 clean-font ">
+                            <i class="bi bi-envelope "></i> Contact
+                            <hr>
+                        </h1> 
+
+                    </div>
+
+                    <div class="text-maroon px-5 mx-5 flex-column justify-content-center">
+                        <form>
+                            <div class="form-group mb-3 clean-font text-maroon text-uppercase">
+                                <label> <h5> Name: </h5> </label>
+                                <input class="form-control" type="text" id="name">
+                            </div>
+                            <div class="form-group mb-3 clean-font text-maroon text-uppercase">
+                                <label> <h5> Email: </h5> </label>
+                                <input class="form-control" type="email" id="email">
+                            </div>
+                            <div class="form-group mb-3 clean-font text-maroon text-uppercase">
+                                <label> <h5> Subject: </h5> </label>
+                                <input class="form-control" type="subject" id="subject">
+                            </div>
+                            <div class="form-group mb-3 clean-font text-maroon text-uppercase">
+                                <label> <h5> Message: </h5> </label>
+                                <textarea rows="8" id="message" class="form-control"> </textarea>
+                            </div>
+                            <button class="btn btn-outline-light float-end" type="submit"> <i class="bi bi-arrow-return-left"></i> </button>
+                        </form>
+                    </div>  
+                </div>  
+                <!--END COLUMN 2-->
+
+
+
+            </div>
+
+            <!-- Bootstrap Bundle with Popper -->
+            <script src="scripts/bootstrap.bundle.min.js"></script>
+            </body>
+    </body>
+</html>
